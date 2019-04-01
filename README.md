@@ -7,8 +7,8 @@ This is a test of creating a tag cloud from words in tweets found using a #hasht
 **Hosted:**
 [https://tagcloud.willcodefor.beer/](https://tagcloud.willcodefor.beer/)
 
-**API:** [API](https://github.com/believer/tagcloud/tree/master/packages/api)
-**Frontend:** [Frontend](https://github.com/believer/tagcloud/tree/master/packages/frontend)
+- **API:** [API](https://github.com/believer/tagcloud/tree/master/packages/api)
+- **Frontend:** [Frontend](https://github.com/believer/tagcloud/tree/master/packages/frontend)
 
 ## Get started
 
