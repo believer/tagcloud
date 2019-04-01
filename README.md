@@ -1,0 +1,24 @@
+# Tagcloud
+
+[![Build Status](https://travis-ci.com/believer/tagcloud.svg?branch=master)](https://travis-ci.com/believer/tagcloud)
+
+This is a test of creating a tag cloud from words in tweets found using a #hashtag. It's created as a monorepo, hosted on [Now](https://zeit.co/now) and tests run in [Travis](https://travis-ci.com/believer/tagcloud).
+
+**Hosted:**
+[https://tagcloud.willcodefor.beer/](https://tagcloud.willcodefor.beer/)
+
+## Get started
+
+```
+$ git clone https://github.com/believer/tagcloud.git
+$ cd tagcloud
+$ npx lerna bootstrap
+```
+
+## Run tests
+
+Run in root of project to run tests for all packages. Run in each package to run relevant tests.
+
+```
+npm test
+```
