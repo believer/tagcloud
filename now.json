@@ -1,6 +1,7 @@
 {
   "name": "tagcloud",
   "version": 2,
+  "public": true,
   "alias": ["tagcloud.willcodefor.beer"],
   "builds": [
     {
