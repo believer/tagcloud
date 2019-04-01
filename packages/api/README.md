@@ -8,8 +8,16 @@ Lambda is hosted on [Now](https://zeit.co/now).
 ## Get started
 
 ```
-npm run dev
+$ npm run dev
 ```
 
 `npm run dev` will start an Express server that hosts the handler on
 `http://localhost:4000`. This is a convenience server for testing purposes.
+
+## Run tests
+
+```
+$ npm test
+```
+
+Runs tests in watch mode in development and in single run mode when in CI.

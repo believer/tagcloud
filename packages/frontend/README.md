@@ -9,7 +9,7 @@ App](https://facebook.github.io/create-react-app/) and tested using
 ## Get started
 
 ```
-npm start
+$ npm start
 ```
 
 Starts a development server at `http://localhost:3000`
@@ -17,5 +17,5 @@ Starts a development server at `http://localhost:3000`
 ## Run tests
 
 ```
-npm test
+$ npm test
 ```

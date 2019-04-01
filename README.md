@@ -23,5 +23,5 @@ $ npx lerna bootstrap
 Run in root of project to run tests for all packages. Run in each package to run relevant tests.
 
 ```
-npm test
+$ npm test
 ```
