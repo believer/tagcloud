@@ -13,17 +13,17 @@
   "author": "believer <rickard.laurin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
-    "form-data": "^2.3.3",
-    "got": "^9.6.0",
-    "moment": "^2.24.0",
-    "stopword": "^0.2.1"
+    "express": "4.16.4",
+    "form-data": "2.3.3",
+    "got": "9.6.0",
+    "moment": "2.24.0",
+    "stopword": "0.2.1"
   },
   "devDependencies": {
-    "is-ci-cli": "^1.1.1",
-    "jest": "^24.5.0",
-    "mockdate": "^2.0.2",
-    "nodemon": "^1.18.10",
-    "prettier": "^1.16.4"
+    "is-ci-cli": "1.1.1",
+    "jest": "24.5.0",
+    "mockdate": "2.0.2",
+    "nodemon": "1.18.10",
+    "prettier": "1.16.4"
   }
 }
