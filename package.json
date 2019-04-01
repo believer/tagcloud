@@ -1,0 +1,10 @@
+{
+  "name": "tagcloud",
+  "private": true,
+  "scripts": {
+    "test": "lerna exec -- npm run test:ci"
+},
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}

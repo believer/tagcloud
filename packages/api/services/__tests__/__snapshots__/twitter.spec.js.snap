@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#getToken should get a token 1`] = `
+Array [
+  "https://api.twitter.com/oauth2/token",
+  Object {
+    "auth": "undefined:undefined",
+    "body": Object {
+      "append": [MockFunction] {
+        "calls": Array [
+          Array [
+            "grant_type",
+            "client_credentials",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    },
+  },
+]
+`;
+
+exports[`#getToken should return token 1`] = `"token"`;
+
+exports[`#getTweets should get a token and get tweets 1`] = `
+Array [
+  "https://api.twitter.com/oauth2/token",
+  Object {
+    "auth": "undefined:undefined",
+    "body": Object {
+      "append": [MockFunction] {
+        "calls": Array [
+          Array [
+            "grant_type",
+            "client_credentials",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    },
+  },
+]
+`;
+
+exports[`#getTweets should return a list of the 100 most used words 1`] = `
+Array [
+  Object {
+    "count": 5,
+    "word": "amet",
+  },
+  Object {
+    "count": 1,
+    "word": "cum",
+  },
+  Object {
+    "count": 1,
+    "word": "vel",
+  },
+  Object {
+    "count": 1,
+    "word": "nobis",
+  },
+  Object {
+    "count": 3,
+    "word": "iste",
+  },
+  Object {
+    "count": 2,
+    "word": "nemo",
+  },
+  Object {
+    "count": 2,
+    "word": "aut",
+  },
+  Object {
+    "count": 1,
+    "word": "voluptas",
+  },
+  Object {
+    "count": 2,
+    "word": "saepe",
+  },
+  Object {
+    "count": 2,
+    "word": "tempora",
+  },
+  Object {
+    "count": 1,
+    "word": "similique",
+  },
+  Object {
+    "count": 1,
+    "word": "illo",
+  },
+  Object {
+    "count": 1,
+    "word": "facilis",
+  },
+  Object {
+    "count": 1,
+    "word": "fuga",
+  },
+  Object {
+    "count": 1,
+    "word": "nostrum?",
+  },
+  Object {
+    "count": 1,
+    "word": "animi",
+  },
+  Object {
+    "count": 3,
+    "word": "molestiae",
+  },
+  Object {
+    "count": 4,
+    "word": "consectetur",
+  },
+  Object {
+    "count": 1,
+    "word": "aliquam",
+  },
+  Object {
+    "count": 2,
+    "word": "explicabo",
+  },
+  Object {
+    "count": 2,
+    "word": "reprehenderit",
+  },
+  Object {
+    "count": 1,
+    "word": "architecto",
+  },
+  Object {
+    "count": 2,
+    "word": "consequatur",
+  },
+  Object {
+    "count": 2,
+    "word": "enim",
+  },
+  Object {
+    "count": 2,
+    "word": "commodi",
+  },
+  Object {
+    "count": 1,
+    "word": "deleniti",
+  },
+  Object {
+    "count": 2,
+    "word": "alias",
+  },
+  Object {
+    "count": 1,
+    "word": "dolores",
+  },
+  Object {
+    "count": 1,
+    "word": "atque",
+  },
+  Object {
+    "count": 1,
+    "word": "tenetur",
+  },
+  Object {
+    "count": 1,
+    "word": "numquam",
+  },
+  Object {
+    "count": 1,
+    "word": "ipsa",
+  },
+  Object {
+    "count": 2,
+    "word": "tempore",
+  },
+  Object {
+    "count": 1,
+    "word": "dolore",
+  },
+  Object {
+    "count": 1,
+    "word": "aspernatur",
+  },
+  Object {
+    "count": 2,
+    "word": "unde",
+  },
+  Object {
+    "count": 1,
+    "word": "laudantium",
+  },
+  Object {
+    "count": 1,
+    "word": "possimus",
+  },
+  Object {
+    "count": 1,
+    "word": "temporibus",
+  },
+  Object {
+    "count": 1,
+    "word": "illum",
+  },
+  Object {
+    "count": 1,
+    "word": "libero",
+  },
+  Object {
+    "count": 2,
+    "word": "laborum",
+  },
+  Object {
+    "count": 1,
+    "word": "quas",
+  },
+  Object {
+    "count": 1,
+    "word": "exercitationem",
+  },
+  Object {
+    "count": 1,
+    "word": "quibusdam",
+  },
+  Object {
+    "count": 1,
+    "word": "ipsam",
+  },
+  Object {
+    "count": 3,
+    "word": "perspiciatis",
+  },
+  Object {
+    "count": 1,
+    "word": "elit",
+  },
+  Object {
+    "count": 2,
+    "word": "sit",
+  },
+  Object {
+    "count": 1,
+    "word": "ullam",
+  },
+  Object {
+    "count": 1,
+    "word": "optio",
+  },
+  Object {
+    "count": 1,
+    "word": "quos",
+  },
+  Object {
+    "count": 1,
+    "word": "esse",
+  },
+  Object {
+    "count": 2,
+    "word": "nihil",
+  },
+  Object {
+    "count": 1,
+    "word": "officia",
+  },
+  Object {
+    "count": 1,
+    "word": "pariatur",
+  },
+  Object {
+    "count": 1,
+    "word": "quo",
+  },
+  Object {
+    "count": 1,
+    "word": "adipisci",
+  },
+  Object {
+    "count": 1,
+    "word": "voluptates",
+  },
+  Object {
+    "count": 1,
+    "word": "dicta",
+  },
+  Object {
+    "count": 1,
+    "word": "non",
+  },
+  Object {
+    "count": 1,
+    "word": "corporis",
+  },
+  Object {
+    "count": 1,
+    "word": "consequuntur",
+  },
+  Object {
+    "count": 2,
+    "word": "rem",
+  },
+  Object {
+    "count": 2,
+    "word": "eaque",
+  },
+  Object {
+    "count": 3,
+    "word": "labore",
+  },
+  Object {
+    "count": 1,
+    "word": "fugiat",
+  },
+  Object {
+    "count": 1,
+    "word": "odit",
+  },
+  Object {
+    "count": 1,
+    "word": "mollitia",
+  },
+  Object {
+    "count": 1,
+    "word": "doloremque",
+  },
+  Object {
+    "count": 1,
+    "word": "quod",
+  },
+  Object {
+    "count": 1,
+    "word": "quidem",
+  },
+  Object {
+    "count": 1,
+    "word": "est",
+  },
+  Object {
+    "count": 1,
+    "word": "eligendi",
+  },
+  Object {
+    "count": 1,
+    "word": "sapiente",
+  },
+  Object {
+    "count": 1,
+    "word": "excepturi",
+  },
+  Object {
+    "count": 1,
+    "word": "perferendis",
+  },
+  Object {
+    "count": 1,
+    "word": "natus",
+  },
+]
+`;

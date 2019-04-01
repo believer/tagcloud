@@ -1,0 +1,23 @@
+language: node_js
+
+cache:
+  directories:
+    - '~/.npm'
+
+node_js:
+  - 10
+
+install:
+  - npm i -g lerna
+  - lerna bootstrap
+
+matrix:
+  include:
+    - name: tagcloud/api
+      env: PACKAGE_LOCATION=packages/api
+    - name: tagcloud/frontend
+      env: PACKAGE_LOCATION=packages/frontend
+
+script:
+  - cd $PACKAGE_LOCATION
+  - npm test

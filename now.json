@@ -1,0 +1,33 @@
+{
+  "name": "tagcloud",
+  "version": 2,
+  "alias": ["tagcloud.willcodefor.beer"],
+  "builds": [
+    {
+      "src": "packages/api/index.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "packages/frontend/package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/search",
+      "dest": "packages/api/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/packages/frontend/$1"
+    }
+  ],
+  "env": {
+    "TAGCLOUD_KEY": "@tagcloud-key",
+    "TAGCLOUD_SECRET": "@tagcloud-secret"
+  },
+  "regions": ["bru1"]
+}
