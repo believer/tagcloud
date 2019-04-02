@@ -28,7 +28,7 @@ const getToken = async () => {
 }
 
 // Remove any non-word characters
-const cleanWord = word => word.replace(/\W/g, '')
+const cleanWord = word => word.replace(/[^a-zåäö0-9]*/g, '')
 
 const removeUnwanted = word =>
   !REMOVE_WORDS.some(removeWord => word.includes(removeWord))

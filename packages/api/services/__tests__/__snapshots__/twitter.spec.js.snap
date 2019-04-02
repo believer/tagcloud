@@ -63,6 +63,14 @@ Array [
     "word": "amet",
   },
   Object {
+    "count": 2,
+    "style": Object {
+      "color": "#0088ff",
+      "fontSize": "35px",
+    },
+    "word": "ökar",
+  },
+  Object {
     "count": 1,
     "style": Object {
       "color": "#0088ff",
@@ -229,6 +237,14 @@ Array [
       "fontSize": "26px",
     },
     "word": "delen",
+  },
+  Object {
+    "count": 2,
+    "style": Object {
+      "color": "#0088ff",
+      "fontSize": "35px",
+    },
+    "word": "åter",
   },
   Object {
     "count": 2,
