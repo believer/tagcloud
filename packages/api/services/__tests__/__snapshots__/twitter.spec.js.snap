@@ -57,626 +57,610 @@ Array [
   Object {
     "count": 5,
     "style": Object {
-      "color": "hsl(0, 0%, 0%)",
-      "fontSize": "61.00px",
+      "color": "#0088ff",
+      "fontSize": "60px",
     },
     "word": "amet",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "cum",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "vel",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "nobis",
+    "word": "nobi",
   },
   Object {
     "count": 3,
     "style": Object {
-      "color": "hsl(0, 0%, 20%)",
-      "fontSize": "41.80px",
+      "color": "#0088ff",
+      "fontSize": "43px",
     },
-    "word": "iste",
+    "word": "ist",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "nemo",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "aut",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "voluptas",
+    "word": "volupta",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
-    "word": "saepe",
+    "word": "saep",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "tempora",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "similique",
+    "word": "similiqu",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "illo",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "facilis",
+    "word": "facili",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "fuga",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "nostrum?",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "animi",
   },
   Object {
     "count": 3,
     "style": Object {
-      "color": "hsl(0, 0%, 20%)",
-      "fontSize": "41.80px",
+      "color": "#0088ff",
+      "fontSize": "43px",
     },
-    "word": "molestiae",
+    "word": "molestia",
   },
   Object {
     "count": 4,
     "style": Object {
-      "color": "hsl(0, 0%, 10%)",
-      "fontSize": "51.40px",
+      "color": "#0088ff",
+      "fontSize": "52px",
     },
     "word": "consectetur",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "aliquam",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "explicabo",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "reprehenderit",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "architecto",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "consequatur",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "enim",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "commodi",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "deleniti",
+    "word": "delen",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
-    "word": "alias",
+    "word": "alia",
+  },
+  Object {
+    "count": 2,
+    "style": Object {
+      "color": "#0088ff",
+      "fontSize": "35px",
+    },
+    "word": "dolor",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "dolores",
+    "word": "atqu",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
-    },
-    "word": "atque",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "tenetur",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "numquam",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "ipsa",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
-    "word": "tempore",
+    "word": "tempor",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
-    },
-    "word": "dolore",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "aspernatur",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
-    "word": "unde",
+    "word": "und",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "laudantium",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "possimus",
+    "word": "possimu",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "temporibus",
+    "word": "temporibu",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "illum",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "libero",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "laborum",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "quas",
+    "word": "qua",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "exercitationem",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "quibusdam",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "ipsam",
   },
   Object {
     "count": 3,
     "style": Object {
-      "color": "hsl(0, 0%, 20%)",
-      "fontSize": "41.80px",
+      "color": "#0088ff",
+      "fontSize": "43px",
     },
-    "word": "perspiciatis",
+    "word": "perspiciati",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "elit",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "sit",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "ullam",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "optio",
   },
   Object {
-    "count": 1,
-    "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
-    },
-    "word": "quos",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
-    },
-    "word": "esse",
-  },
-  Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
-    },
-    "word": "nihil",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
-    },
-    "word": "officia",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
-    },
-    "word": "pariatur",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "quo",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
+    },
+    "word": "ess",
+  },
+  Object {
+    "count": 2,
+    "style": Object {
+      "color": "#0088ff",
+      "fontSize": "35px",
+    },
+    "word": "nihil",
+  },
+  Object {
+    "count": 1,
+    "style": Object {
+      "color": "#0088ff",
+      "fontSize": "26px",
+    },
+    "word": "officia",
+  },
+  Object {
+    "count": 1,
+    "style": Object {
+      "color": "#0088ff",
+      "fontSize": "26px",
+    },
+    "word": "pariatur",
+  },
+  Object {
+    "count": 1,
+    "style": Object {
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "adipisci",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "voluptates",
+    "word": "volupt",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "dicta",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "non",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "corporis",
+    "word": "corpori",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "consequuntur",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
     "word": "rem",
   },
   Object {
     "count": 2,
     "style": Object {
-      "color": "hsl(0, 0%, 30%)",
-      "fontSize": "32.20px",
+      "color": "#0088ff",
+      "fontSize": "35px",
     },
-    "word": "eaque",
+    "word": "eaqu",
   },
   Object {
     "count": 3,
     "style": Object {
-      "color": "hsl(0, 0%, 20%)",
-      "fontSize": "41.80px",
+      "color": "#0088ff",
+      "fontSize": "43px",
     },
-    "word": "labore",
+    "word": "labor",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "fugiat",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "odit",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "mollitia",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "doloremque",
+    "word": "doloremqu",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "quod",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "quidem",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "est",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "eligendi",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "sapiente",
+    "word": "sapient",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
     "word": "excepturi",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "perferendis",
+    "word": "perferendi",
   },
   Object {
     "count": 1,
     "style": Object {
-      "color": "hsl(0, 0%, 40%)",
-      "fontSize": "22.60px",
+      "color": "#0088ff",
+      "fontSize": "26px",
     },
-    "word": "natus",
+    "word": "natu",
   },
 ]
 `;

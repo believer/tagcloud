@@ -2,10 +2,14 @@ const got = require('got')
 const FormData = require('form-data')
 const moment = require('moment')
 const stopword = require('stopword')
+const stemmer = require('stemmer')
+const randomColor = require('randomcolor')
 
 const TWITTER_BASE = 'https://api.twitter.com'
 const KEY = process.env.TAGCLOUD_KEY
 const SECRET = process.env.TAGCLOUD_SECRET
+
+const REMOVE_WORDS = ['http', 'https', '&amp;']
 
 // Gets an access token from the Twitter API
 const getToken = async () => {
@@ -23,21 +27,25 @@ const getToken = async () => {
   return access_token
 }
 
-// Lowercase text to not get any differences in capitalization
-// Remove some characters like !
-// Split by spaces to an array
-// Remove short words and links
-// Remove any stopwords
 const parseText = text =>
+  // Remove any stopwords
   stopword.removeStopwords(
     text
+      // Lowercase text to not get any differences in capitalization
       .toLowerCase()
+      // Remove some characters like !
       .replace(/(\n|:|#|!|,|\.|…|-)/g, '')
-      .split(' ')
-      .filter(
-        word =>
-          word.length > 2 && !word.includes('https') && !word.includes('http')
+      // Remove some emojis
+      .replace(
+        /([\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g,
+        ''
       )
+      // Split by spaces to an array
+      .split(' ')
+      // Remove short words, links and more
+      .filter(word => word.length > 2 && !REMOVE_WORDS.includes(word))
+      // Do stemming on word
+      .map(stemmer)
   )
 
 const getTweets = async hashtag => {
@@ -103,8 +111,8 @@ const getTweets = async hashtag => {
     return {
       ...word,
       style: {
-        color: `hsl(0, 0%, ${Math.abs(ratio * 50 - 50)}%)`,
-        fontSize: `${(ratio * 48 + 13).toFixed(2)}px`,
+        color: randomColor(),
+        fontSize: `${Math.round(ratio * 42 + 18)}px`,
       },
     }
   })

@@ -3,6 +3,7 @@ const got = require('got')
 const mockdate = require('mockdate')
 
 jest.mock('got')
+jest.mock('randomcolor', () => jest.fn().mockReturnValue('#0088ff'))
 jest.mock('form-data', () =>
   jest.fn(() => ({
     append: jest.fn(),
@@ -65,7 +66,7 @@ describe('#getTweets', () => {
             },
             {
               text:
-                'Consectetur iste alias\n\n dolores atque tenetur Numquam ipsa tempore ad dolore aspernatur Unde laudantium possimus temporibus iste illum libero laborum! Quas nemo exercitationem quibusdam amet ipsam perspiciatis Molestiae unde laborum.',
+                'Conse😅ctetur iste alias\n\n dolores atque tenetur Numquam ipsa tempore ad dolore aspernatur Unde laudantium possimus temporibus iste illum libero laborum! Quas nemo exercitationem quibusdam amet ipsam perspiciatis Molestiae unde laborum.',
             },
             {
               text:
@@ -73,7 +74,7 @@ describe('#getTweets', () => {
             },
             {
               text:
-                'Amet! eaque... amet reprehenderit, labore a! Explicabo fugiat odit mollitia saepe labore tempore, doloremque. Consectetur quod rem quidem consectetur eaque. Perspiciatis est amet eligendi ut labore sapiente excepturi. Perferendis natus!',
+                'Am😁et! eaque... amet reprehenderit, labore a! Explicabo fugiat odit mollitia saepe labore tempore, doloremque. Consectetur quod rem quidem consectetur eaque. Perspiciatis est amet eligendi ut labore sapiente excepturi. Perferendis natus!',
             },
           ],
         },
