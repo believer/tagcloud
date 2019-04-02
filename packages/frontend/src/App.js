@@ -1,20 +1,10 @@
 import React from 'react'
-import { Global, css } from '@emotion/core'
+import { Global } from '@emotion/core'
 import styled from '@emotion/styled'
 import Input from './components/Input'
 import TagCloud from './components/TagCloud'
 import { useDebounce } from '@iteam/hooks'
-
-const globalStyles = css`
-  * {
-    box-sizing: border-box;
-  }
-
-  html,
-  body {
-    margin: 0;
-  }
-`
+import { globalStyles } from './globalStyles'
 
 const Wrap = styled.div`
   display: grid;
@@ -25,6 +15,8 @@ const Wrap = styled.div`
 const Header = styled.header`
   background-color: #24292e;
   color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 21px;
   padding: 20px;
   text-align: center;
 `
@@ -35,7 +27,7 @@ const Main = styled.main`
   padding: 20px;
 
   @media (min-width: 1024px) {
-    grid-template-columns: 1fr 600px 1fr;
+    grid-template-columns: 1fr 800px 1fr;
   }
 `
 
@@ -50,8 +42,14 @@ const Footer = styled.footer`
   text-align: center;
 `
 
+const ListItem = styled.li`
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+`
+
 const App = () => {
-  const [hashtag, setHashTag] = React.useState()
+  const [hashtag, setHashTag] = React.useState('')
   const debouncedHashtag = useDebounce(hashtag, 300)
 
   return (
@@ -67,12 +65,24 @@ const App = () => {
       </Main>
 
       <Footer>
-        email:
-        <a href="mailto:rickard.laurin@gmail.com">rickard.laurin@gmail.com</a>
-        github:
-        <a href="https://github.com/believer">https://github.com/believer</a>
-        website:
-        <a href="https://rickardlaurin.se/">https://rickardlaurin.se/</a>
+        <ul>
+          <ListItem>
+            E-mail:{' '}
+            <a href="mailto:rickard.laurin@gmail.com">
+              rickard.laurin@gmail.com
+            </a>
+          </ListItem>
+          <ListItem>
+            GitHub:{' '}
+            <a href="https://github.com/believer">
+              https://github.com/believer
+            </a>
+          </ListItem>
+          <ListItem>
+            Website:{' '}
+            <a href="https://rickardlaurin.se/">https://rickardlaurin.se/</a>
+          </ListItem>
+        </ul>
       </Footer>
     </Wrap>
   )
