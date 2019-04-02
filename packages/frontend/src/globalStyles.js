@@ -7,12 +7,13 @@ export const globalStyles = css`
 
   html,
   body {
+    color: hsl(244, 17%, 29%);
     font-family: 'Noto Sans', serif;
     margin: 0;
   }
 
   a {
-    color: hsl(160, 50%, 50%);
+    color: hsl(348, 100%, 70%);
   }
 
   ul {

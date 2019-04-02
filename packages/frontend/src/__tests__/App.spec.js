@@ -5,8 +5,25 @@ import { useTweets } from '../useTweets'
 
 jest.mock('../useTweets')
 
+test('handles error state', () => {
+  useTweets.mockReturnValue({
+    error: {
+      message: 'Something broke',
+    },
+    isLoading: false,
+    words: [],
+  })
+
+  const { getByText } = render(<App />)
+
+  expect(
+    getByText(/something went wrong while fetching data/i)
+  ).toBeInTheDocument()
+})
+
 test('handles loading state', () => {
   useTweets.mockReturnValue({
+    error: null,
     isLoading: true,
     words: [],
   })
@@ -20,6 +37,7 @@ test('handles empty state', () => {
   jest.useFakeTimers()
 
   useTweets.mockReturnValue({
+    error: null,
     isLoading: false,
     words: [],
   })
@@ -39,6 +57,7 @@ test('handles empty state', () => {
 
 test('should render words', () => {
   useTweets.mockReturnValue({
+    error: null,
     isLoading: false,
     words: [
       {
@@ -52,7 +71,7 @@ test('should render words', () => {
     ],
   })
 
-  const { container } = render(<App />)
+  const { getByText } = render(<App />)
 
-  expect(container).toMatchSnapshot()
+  expect(getByText(/cookiemonster/i)).toBeInTheDocument()
 })

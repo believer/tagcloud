@@ -2,7 +2,7 @@ import { useFetch } from 'react-fetch-hook'
 
 export const useTweets = hashtag => {
   const BASE_URL = 'https://tagcloud.willcodefor.beer'
-  const { data, isLoading } = useFetch(
+  const { error, data, isLoading } = useFetch(
     `${BASE_URL}/search?hashtag=${hashtag}`,
     {
       depends: [hashtag],
@@ -10,6 +10,7 @@ export const useTweets = hashtag => {
   )
 
   return {
+    error,
     isLoading,
     words: data || [],
   }

@@ -13,8 +13,8 @@ const Wrap = styled.div`
 `
 
 const Header = styled.header`
-  background-color: #24292e;
-  color: #fff;
+  background-color: hsl(244, 17%, 15%);
+  color: hsl(0, 0%, 100%);
   font-family: 'Fjalla One', sans-serif;
   font-size: 21px;
   padding: 20px;
@@ -36,8 +36,8 @@ const MainInner = styled.div`
 `
 
 const Footer = styled.footer`
-  background-color: #24292e;
-  color: #fff;
+  background-color: hsl(244, 17%, 15%);
+  color: hsl(0, 0%, 100%);
   padding: 20px;
   text-align: center;
 `
@@ -67,19 +67,19 @@ const App = () => {
       <Footer>
         <ul>
           <ListItem>
-            E-mail:{' '}
+            <strong>E-mail</strong>{' '}
             <a href="mailto:rickard.laurin@gmail.com">
               rickard.laurin@gmail.com
             </a>
           </ListItem>
           <ListItem>
-            GitHub:{' '}
+            <strong>GitHub</strong>{' '}
             <a href="https://github.com/believer">
               https://github.com/believer
             </a>
           </ListItem>
           <ListItem>
-            Website:{' '}
+            <strong>Website</strong>{' '}
             <a href="https://rickardlaurin.se/">https://rickardlaurin.se/</a>
           </ListItem>
         </ul>
