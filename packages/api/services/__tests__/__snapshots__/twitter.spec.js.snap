@@ -56,314 +56,626 @@ exports[`#getTweets should return a list of the 100 most used words 1`] = `
 Array [
   Object {
     "count": 5,
+    "style": Object {
+      "color": "hsl(0, 0%, 0%)",
+      "fontSize": "48.00px",
+    },
     "word": "amet",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "cum",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "vel",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "nobis",
   },
   Object {
     "count": 3,
+    "style": Object {
+      "color": "hsl(0, 0%, 20%)",
+      "fontSize": "28.80px",
+    },
     "word": "iste",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "nemo",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "aut",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "voluptas",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "saepe",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "tempora",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "similique",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "illo",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "facilis",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "fuga",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "nostrum?",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "animi",
   },
   Object {
     "count": 3,
+    "style": Object {
+      "color": "hsl(0, 0%, 20%)",
+      "fontSize": "28.80px",
+    },
     "word": "molestiae",
   },
   Object {
     "count": 4,
+    "style": Object {
+      "color": "hsl(0, 0%, 10%)",
+      "fontSize": "38.40px",
+    },
     "word": "consectetur",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "aliquam",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "explicabo",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "reprehenderit",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "architecto",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "consequatur",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "enim",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "commodi",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "deleniti",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "alias",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "dolores",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "atque",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "tenetur",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "numquam",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "ipsa",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "tempore",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "dolore",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "aspernatur",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "unde",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "laudantium",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "possimus",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "temporibus",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "illum",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "libero",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "laborum",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "quas",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "exercitationem",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "quibusdam",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "ipsam",
   },
   Object {
     "count": 3,
+    "style": Object {
+      "color": "hsl(0, 0%, 20%)",
+      "fontSize": "28.80px",
+    },
     "word": "perspiciatis",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "elit",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "sit",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "ullam",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "optio",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "quos",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "esse",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "nihil",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "officia",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "pariatur",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "quo",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "adipisci",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "voluptates",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "dicta",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "non",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "corporis",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "consequuntur",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "rem",
   },
   Object {
     "count": 2,
+    "style": Object {
+      "color": "hsl(0, 0%, 30%)",
+      "fontSize": "19.20px",
+    },
     "word": "eaque",
   },
   Object {
     "count": 3,
+    "style": Object {
+      "color": "hsl(0, 0%, 20%)",
+      "fontSize": "28.80px",
+    },
     "word": "labore",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "fugiat",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "odit",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "mollitia",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "doloremque",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "quod",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "quidem",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "est",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "eligendi",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "sapiente",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "excepturi",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "perferendis",
   },
   Object {
     "count": 1,
+    "style": Object {
+      "color": "hsl(0, 0%, 40%)",
+      "fontSize": "9.60px",
+    },
     "word": "natus",
   },
 ]
