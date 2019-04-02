@@ -7,8 +7,11 @@ Lambda is hosted on [Now](https://zeit.co/now).
 
 ## Get started
 
+To run the app for testing, a Twitter app key and secret need to be set as
+environment variables.
+
 ```
-$ npm run dev
+$ TAGCLOUD_KEY=twitter-key TAGCLOUD_SECRET=twitter-secret npm run dev
 ```
 
 `npm run dev` will start an Express server that hosts the handler on
