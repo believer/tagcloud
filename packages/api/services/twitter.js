@@ -27,25 +27,30 @@ const getToken = async () => {
   return access_token
 }
 
+// Remove any non-word characters
+const cleanWord = word => word.replace(/\W/g, '')
+
+const removeUnwanted = word =>
+  !REMOVE_WORDS.some(removeWord => word.includes(removeWord))
+
+const removeShortWords = word => word.length > 3
+
 const parseText = text =>
   // Remove any stopwords
   stopword.removeStopwords(
     text
       // Lowercase text to not get any differences in capitalization
       .toLowerCase()
-      // Remove some characters like !
-      .replace(/(\n|:|#|!|,|\.|…|-)/g, '')
-      // Remove some emojis
-      .replace(
-        /([\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g,
-        ''
-      )
       // Split by spaces to an array
       .split(' ')
       // Remove short words, links and more
-      .filter(word => word.length > 2 && !REMOVE_WORDS.includes(word))
+      .filter(removeUnwanted)
+      // Clean non-words and emojis
+      .map(cleanWord)
       // Do stemming on word
       .map(stemmer)
+      // Remove any short words
+      .filter(removeShortWords)
   )
 
 const getTweets = async hashtag => {

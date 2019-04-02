@@ -68,31 +68,7 @@ Array [
       "color": "#0088ff",
       "fontSize": "26px",
     },
-    "word": "cum",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "26px",
-    },
-    "word": "vel",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "26px",
-    },
     "word": "nobi",
-  },
-  Object {
-    "count": 3,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "43px",
-    },
-    "word": "ist",
   },
   Object {
     "count": 2,
@@ -101,14 +77,6 @@ Array [
       "fontSize": "35px",
     },
     "word": "nemo",
-  },
-  Object {
-    "count": 2,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "35px",
-    },
-    "word": "aut",
   },
   Object {
     "count": 1,
@@ -172,7 +140,7 @@ Array [
       "color": "#0088ff",
       "fontSize": "26px",
     },
-    "word": "nostrum?",
+    "word": "nostrum",
   },
   Object {
     "count": 1,
@@ -327,14 +295,6 @@ Array [
     "word": "aspernatur",
   },
   Object {
-    "count": 2,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "35px",
-    },
-    "word": "und",
-  },
-  Object {
     "count": 1,
     "style": Object {
       "color": "#0088ff",
@@ -388,14 +348,6 @@ Array [
       "color": "#0088ff",
       "fontSize": "26px",
     },
-    "word": "qua",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "26px",
-    },
     "word": "exercitationem",
   },
   Object {
@@ -431,14 +383,6 @@ Array [
     "word": "elit",
   },
   Object {
-    "count": 2,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "35px",
-    },
-    "word": "sit",
-  },
-  Object {
     "count": 1,
     "style": Object {
       "color": "#0088ff",
@@ -453,22 +397,6 @@ Array [
       "fontSize": "26px",
     },
     "word": "optio",
-  },
-  Object {
-    "count": 2,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "35px",
-    },
-    "word": "quo",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "26px",
-    },
-    "word": "ess",
   },
   Object {
     "count": 2,
@@ -524,14 +452,6 @@ Array [
       "color": "#0088ff",
       "fontSize": "26px",
     },
-    "word": "non",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "26px",
-    },
     "word": "corpori",
   },
   Object {
@@ -541,14 +461,6 @@ Array [
       "fontSize": "26px",
     },
     "word": "consequuntur",
-  },
-  Object {
-    "count": 2,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "35px",
-    },
-    "word": "rem",
   },
   Object {
     "count": 2,
@@ -613,14 +525,6 @@ Array [
       "fontSize": "26px",
     },
     "word": "quidem",
-  },
-  Object {
-    "count": 1,
-    "style": Object {
-      "color": "#0088ff",
-      "fontSize": "26px",
-    },
-    "word": "est",
   },
   Object {
     "count": 1,

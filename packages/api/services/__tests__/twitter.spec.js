@@ -62,19 +62,19 @@ describe('#getTweets', () => {
           results: [
             {
               text:
-                'Amet cum vel #nobis iste nemo: Aut voluptas ut saepe tempora similique. Illo facilis at tempora fuga nostrum? Animi molestiae consectetur aliquam at explicabo Reprehenderit architecto consequatur enim commodi deleniti',
+                '"Amet" cum vel #nobis iste nemo: Aut voluptas ut saepe tempora similique. Illo facilis at tempora fuga nostrum? Animi molestiae consectetur aliquam at explicabo Reprehenderit architecto & &amp; consequatur enim commodi & deleniti',
             },
             {
               text:
-                'Conse😅ctetur iste alias\n\n dolores atque tenetur Numquam ipsa tempore ad dolore aspernatur Unde laudantium possimus temporibus iste illum libero laborum! Quas nemo exercitationem quibusdam amet ipsam perspiciatis Molestiae unde laborum.',
+                'Conse😅ctetur iste alias\n\n dolores atque tenetur Numquam ipsa tempore ad dolore aspernatur Unde laudantium possimus temporibus iste illum libero laborum! Quas nemo exercitationem quibusdam amet ipsam perspiciatis Molestiae unde & laborum.',
             },
             {
               text:
-                'Elit… sit ullam optio sit perspiciatis. Et quos esse nihil officia enim Consequatur pariatur quo commodi adipisci voluptates dicta In aut non molestiae corporis consequuntur! Alias ex nihil rem at',
+                'Elit… sit ullam https//tco/siqurycll7 optio sit perspiciatis. Et quos esse nihil officia enim Consequatur pariatur quo commodi adipisci voluptates dicta In aut non molestiae corporis consequuntur! Alias ex nihil rem &amp; at',
             },
             {
               text:
-                'Am😁et! eaque... amet reprehenderit, labore a! Explicabo fugiat odit mollitia saepe labore tempore, doloremque. Consectetur quod rem quidem consectetur eaque. Perspiciatis est amet eligendi ut labore sapiente excepturi. Perferendis natus!',
+                'Am😁et! eaque... ¿amet https//tco/siqurycll7 reprehenderit, labore a! Explicabo fugiat odit mollitia saepe labore tempore, doloremque. Consectetur quod rem quidem consectetur eaque. Perspiciatis est @amet eligendi ut labore sapiente excepturi. Perferendis &amp; natus!',
             },
           ],
         },
