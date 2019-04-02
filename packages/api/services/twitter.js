@@ -104,7 +104,7 @@ const getTweets = async hashtag => {
       ...word,
       style: {
         color: `hsl(0, 0%, ${Math.abs(ratio * 50 - 50)}%)`,
-        fontSize: `${(ratio * 48).toFixed(2)}px`,
+        fontSize: `${(ratio * 48 + 13).toFixed(2)}px`,
       },
     }
   })
