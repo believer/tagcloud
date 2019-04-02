@@ -1,39 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render 1`] = `
+exports[`should render words 1`] = `
 <div>
   <div
     class="css-1dbsdhd"
   >
     <header
-      class="css-1gpsrbn"
+      class="css-1i14ur6"
     >
       Tag Cloud by Rickard Laurin
     </header>
     <main
-      class="css-avrvsh"
+      class="css-mvo6m"
     >
       <div
         class="css-lm4rz3"
       >
-        <div>
+        <div
+          class="css-1vwm2gx"
+        >
           <label
-            class="css-9yl9ux"
+            class="css-1yoaw6g"
             for="search"
           >
             Search by hashtag
           </label>
           <input
+            class="css-bvcjre"
             id="search"
             type="text"
             value=""
           />
         </div>
         <div
-          class="css-16kcklx"
+          class="css-1lmv3v3"
         >
           <div
-            class="css-n82rmv"
+            class="css-1b2blp6"
             style="color: hsl(0, 0%, 0%); font-size: 48px;"
           >
             cookiemonster
@@ -44,24 +47,41 @@ exports[`should render 1`] = `
     <footer
       class="css-1gpsrbn"
     >
-      email:
-      <a
-        href="mailto:rickard.laurin@gmail.com"
-      >
-        rickard.laurin@gmail.com
-      </a>
-      github:
-      <a
-        href="https://github.com/believer"
-      >
-        https://github.com/believer
-      </a>
-      website:
-      <a
-        href="https://rickardlaurin.se/"
-      >
-        https://rickardlaurin.se/
-      </a>
+      <ul>
+        <li
+          class="css-njh0gs"
+        >
+          E-mail:
+           
+          <a
+            href="mailto:rickard.laurin@gmail.com"
+          >
+            rickard.laurin@gmail.com
+          </a>
+        </li>
+        <li
+          class="css-njh0gs"
+        >
+          GitHub:
+           
+          <a
+            href="https://github.com/believer"
+          >
+            https://github.com/believer
+          </a>
+        </li>
+        <li
+          class="css-njh0gs"
+        >
+          Website:
+           
+          <a
+            href="https://rickardlaurin.se/"
+          >
+            https://rickardlaurin.se/
+          </a>
+        </li>
+      </ul>
     </footer>
   </div>
 </div>
